@@ -1,8 +1,8 @@
-name: context-log
-on: push
+name: context-log-pr
+on: pull_request
 
 jobs:
-  one:
+  two:
     runs-on: ubuntu-latest
     steps:
       - name: Dump GitHub context
